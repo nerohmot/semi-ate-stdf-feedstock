@@ -19,8 +19,13 @@ requirements:
   host:
     - pip
     - python >=3.7
+    - pyqt
+    - xlsxwriter
+
   run:
     - python >=3.7
+    - pyqt
+    - xlsxwriter
 
 test:
   imports:
